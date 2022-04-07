@@ -4,12 +4,17 @@
   "description": "consumes a csv of errors and returns a list of errors and their count",
   "main": "errorEater.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node errorEater.js"
   },
   "keywords": [
     "tcsi",
     "error"
   ],
   "author": "Daniel Beach",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0"
+  }
 }
