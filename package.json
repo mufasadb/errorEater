@@ -1,0 +1,15 @@
+{
+  "name": "erroreater",
+  "version": "1.0.0",
+  "description": "consumes a csv of errors and returns a list of errors and their count",
+  "main": "errorEater.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tcsi",
+    "error"
+  ],
+  "author": "Daniel Beach",
+  "license": "MIT"
+}
